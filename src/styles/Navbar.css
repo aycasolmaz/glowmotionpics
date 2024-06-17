@@ -1,0 +1,70 @@
+nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #000;
+  color: #DBF5FA;
+  padding: 10px 20px;
+  padding-top: 25px;
+  padding-left: 40px;
+  padding-right: 40px;
+  font-family: 'Anonymous Pro', monospace; /* Use the Anonymous Pro font */
+  border-bottom: 2px solid rgb(88, 86, 86);
+}
+
+.NavLogo {
+  flex-grow: 1;
+}
+
+.circle-container {
+  position: relative;
+  width: 100px; /* Adjust according to your image size */
+  height: 100px; /* Adjust according to your image size */
+
+}
+
+.centered-image, svg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+.circle-container {
+  position: relative;
+  width: 100px; /* Adjust according to your image size */
+  height: 100px; /* Adjust according to your image size */
+  display: flex;
+  align-items: flex-end; /* Align child elements (p) to the bottom */
+}
+
+.circle-container p {
+  font-family: 'Ubuntu', sans-serif; /* Use the Ubuntu font in bold */
+  font-weight: 700; /* Bold weight */
+  color: #FFF;
+  font-size:30px;
+  margin-left: 110px;  
+  white-space: nowrap; /* Keep the text on a single line */
+
+  text-overflow: ellipsis; /* Add ellipsis for text overflow */
+  position: absolute;
+  bottom: 24px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+li {
+  margin-left: 20px; /* Adjust spacing between navbar items */
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
+  font-size: large;
+}
